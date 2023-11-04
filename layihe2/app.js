@@ -8,7 +8,7 @@ let liDiv = document.querySelector("liDiv")
 let masssive = [];
 
 function createItem() {
-    if (input.value == "") {
+    if (input.value == "" || input.value.trim()=="") {
         alert("Write todos,please")
     }
     else {
