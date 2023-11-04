@@ -1,0 +1,127 @@
+.big-div{
+
+    margin: 120px auto;
+    width: 336px;
+    flex-shrink: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+border: 1px solid #3a0437;
+background:  lightpink;
+    
+}
+.div2{
+    width: 336px;
+height: 28px;
+flex-shrink: 0;
+background-color: #FFDC40;
+border-radius: 10px;
+margin-bottom: 16px;
+background-color: palevioletred
+}
+h1{
+    width: 198px;
+height: 34px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 42px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin: auto;
+margin-bottom: 48px;
+}
+button{
+    display: flex;
+    width: 129px;
+    height: 42px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: palevioletred;
+    margin: auto;
+    color: black;
+    padding-left: 48px;
+    
+    margin-bottom: 20px;
+    font-weight: bolder;
+
+
+}
+p{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: auto;
+}
+.img {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.alpha1{
+    margin-top: 10px;
+    right: 33px;
+    margin-right: 43px;
+    margin-bottom: 10px;
+
+}
+.photos{
+    margin: auto;
+}
+.delete1{
+    right: 33px;
+    margin-left: 51px;
+
+}
+.div3{
+    display: flex;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    width: 82%;
+    margin-left: 29px;
+    margin-bottom: 36px;
+
+
+}
+    .input1{
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    margin-left: 21px;
+
+    background: rgba(196, 196, 196, 0.00); 
+    }
+    .div3-with-tip:hover .div3{
+        display: block;
+    }
+    .img1{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        float: right;
+        margin-top: -16px;
+        margin-right: 23px;
+    }
+   .scroll{
+    overflow-y: hidden;
+    width: 80%;
+   }
+
+
+ li{
+    overflow-wrap: break-word;
+ }
+ body{
+    background-color: #f0d2f0;
+ }
